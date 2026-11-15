@@ -506,6 +506,11 @@ max-width: 1200px;
 margin: 0 auto;
 }
 
+.services }
+display: flex;
+flex-wrap: wrap;
+}
+
 .service__description {
 display: flex;
 flex-direction: column;
@@ -514,9 +519,12 @@ flex-direction: column;
 /* QUALITY WORK */
 
 #quality .row {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+width: 100%;
+max-width: 1200px;
+margin: 0 auto;
+display: flex;
+justify-content: space-between;
+align-items: center;
 }
 
 #quality .section__title,
@@ -531,6 +539,9 @@ flex-direction: column;
 .quality__description {
   max-width: 576px;
   margin-right: 64px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
 }
 
 .quality__description,
@@ -596,6 +607,8 @@ flex-direction: column;
   display: flex;
   align-items: flex-start;
   margin-top: 32px;
+  display: flex;
+  flex-direction: column;
 }
 
 .step__number {
