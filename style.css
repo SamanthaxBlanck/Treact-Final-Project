@@ -1214,6 +1214,9 @@ footer {
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
+  flex-direction: column;
+  width: calc(100%/5);
+  align-items: center;
 }
 
 .footer__column {
@@ -1312,6 +1315,7 @@ footer {
   z-index: 2;
   cursor: pointer;
   transition: all 300ms ease;
+  flex-wrap: wrap;
 }
 
 .footer__social--link:hover {
@@ -1350,6 +1354,7 @@ width: 100%;
 max-width: 1200px;
 margin: 0 auto;
 }
+
 
 /* MOBILE RESPONSIVENESS */
 
