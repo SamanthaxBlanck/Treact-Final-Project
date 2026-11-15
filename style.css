@@ -1114,7 +1114,8 @@ footer {
   padding: 8px;
   background: #f7fafc;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
+  flex-direction: column;
   border-radius: 50%;
   z-index: 2;
   cursor: pointer;
